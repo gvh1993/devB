@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-dataflow", "WebApplication-dataflow\WebApplication-dataflow.csproj", "{513D27FA-3CED-4290-A16C-59D263CC6744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{5A99DDF9-28D8-431F-8DDC-ACD3D6E6CD3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513D27FA-3CED-4290-A16C-59D263CC6744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513D27FA-3CED-4290-A16C-59D263CC6744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513D27FA-3CED-4290-A16C-59D263CC6744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513D27FA-3CED-4290-A16C-59D263CC6744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A99DDF9-28D8-431F-8DDC-ACD3D6E6CD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A99DDF9-28D8-431F-8DDC-ACD3D6E6CD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A99DDF9-28D8-431F-8DDC-ACD3D6E6CD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A99DDF9-28D8-431F-8DDC-ACD3D6E6CD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
