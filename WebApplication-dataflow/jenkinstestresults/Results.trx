@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="a9dddcb9-9604-4b78-beb5-d8b3d654d76b" name="SYSTEM@DESKTOP-2IV19KM 2016-04-20 15:51:21" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Default Test Settings" id="4a94777f-4a2c-4082-a39d-2015333e391f">
-    <Deployment userDeploymentRoot="C:\Users\gertj\Documents\Github\devB\WebApplication-dataflow\jenkinstestresults" useDefaultDeploymentRoot="false" runDeploymentRoot="SYSTEM_DESKTOP-2IV19KM 2016-04-20 15_51_21" />
+<TestRun id="fd151ba8-4c5c-4b25-bbc0-7fe6ee055a55" name="SYSTEM@DESKTOP-2IV19KM 2016-05-10 03:19:08" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3f20aca4-d315-4968-9fc5-054a64914b46">
+    <Deployment userDeploymentRoot="D:\Users\gertj\Documents\Github\devB\WebApplication-dataflow\jenkinstestresults" useDefaultDeploymentRoot="false" runDeploymentRoot="SYSTEM_DESKTOP-2IV19KM 2016-05-10 03_19_08" />
     <Execution>
       <TestTypeSpecific />
       <AgentRule name="Execution Agents">
@@ -9,30 +9,30 @@
     </Execution>
     <Properties />
   </TestSettings>
-  <Times creation="2016-04-20T15:51:21.6701371+02:00" queuing="2016-04-20T15:51:22.1504157+02:00" start="2016-04-20T15:51:22.3564639+02:00" finish="2016-04-20T15:51:23.0016808+02:00" />
+  <Times creation="2016-05-10T03:19:08.8401282+02:00" queuing="2016-05-10T03:19:10.4132919+02:00" start="2016-05-10T03:19:10.5976771+02:00" finish="2016-05-10T03:19:11.2126573+02:00" />
   <ResultSummary outcome="Warning">
     <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <RunInfos>
-      <RunInfo computerName="DESKTOP-2IV19KM" outcome="Warning" timestamp="2016-04-20T15:51:21.9754506+02:00">
-        <Text>Warning: Test Run deployment issue: The assembly or module 'WebGrease' directly or indirectly referenced by the test container 'c:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll' was not found.</Text>
+      <RunInfo computerName="DESKTOP-2IV19KM" outcome="Warning" timestamp="2016-05-10T03:19:10.3809305+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'WebGrease' directly or indirectly referenced by the test container 'd:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll' was not found.</Text>
       </RunInfo>
-      <RunInfo computerName="DESKTOP-2IV19KM" outcome="Warning" timestamp="2016-04-20T15:51:21.9759516+02:00">
-        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Owin.Security.OAuth' directly or indirectly referenced by the test container 'c:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll' was not found.</Text>
+      <RunInfo computerName="DESKTOP-2IV19KM" outcome="Warning" timestamp="2016-05-10T03:19:10.3809305+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Owin.Security.OAuth' directly or indirectly referenced by the test container 'd:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll' was not found.</Text>
       </RunInfo>
     </RunInfos>
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="IsConnectedTest" storage="c:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll" id="9e8d12ad-f2a7-f01d-331f-07b61000a523">
-      <Execution id="71a52849-dfc2-4ade-be49-966f1a097f91" />
-      <TestMethod codeBase="C:/Users/gertj/Documents/Github/devB/WebApplication-dataflow/UnitTestProject1/bin/Release/UnitTestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication_dataflow.Controllers.Tests.UnitTest1, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsConnectedTest" />
+    <UnitTest name="IsConnectedTest" storage="d:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll" id="9e8d12ad-f2a7-f01d-331f-07b61000a523">
+      <Execution id="2707dce8-90c9-4743-bd27-b365f7d4a185" />
+      <TestMethod codeBase="D:/Users/gertj/Documents/Github/devB/WebApplication-dataflow/UnitTestProject1/bin/Release/UnitTestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication_dataflow.Controllers.Tests.UnitTest1, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsConnectedTest" />
     </UnitTest>
-    <UnitTest name="TestMethod1" storage="c:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll" id="5b688acc-bf10-4c7e-4b60-69d8596bdd90">
-      <Execution id="04c457f5-f1c6-4f8e-818f-e2139437dd31" />
-      <TestMethod codeBase="C:/Users/gertj/Documents/Github/devB/WebApplication-dataflow/UnitTestProject1/bin/Release/UnitTestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject1.UnitTest1, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    <UnitTest name="TestMethod1" storage="d:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll" id="5b688acc-bf10-4c7e-4b60-69d8596bdd90">
+      <Execution id="a161685e-6c21-4ea7-9b08-dd5c09c798fb" />
+      <TestMethod codeBase="D:/Users/gertj/Documents/Github/devB/WebApplication-dataflow/UnitTestProject1/bin/Release/UnitTestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject1.UnitTest1, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
     </UnitTest>
-    <UnitTest name="IsConnectedTest" storage="c:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll" id="2941aa74-fda9-7c2a-8792-cc4cb8a2c69b">
-      <Execution id="218696ba-f919-4fad-92ca-a7db1b030b14" />
-      <TestMethod codeBase="C:/Users/gertj/Documents/Github/devB/WebApplication-dataflow/UnitTestProject1/bin/Release/UnitTestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication_dataflow.Controllers.Tests.WebApiControllerTests, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsConnectedTest" />
+    <UnitTest name="IsConnectedTest" storage="d:\users\gertj\documents\github\devb\webapplication-dataflow\unittestproject1\bin\release\unittestproject1.dll" id="2941aa74-fda9-7c2a-8792-cc4cb8a2c69b">
+      <Execution id="5bb602ac-0b8e-4e92-b61a-5af6a95796d5" />
+      <TestMethod codeBase="D:/Users/gertj/Documents/Github/devB/WebApplication-dataflow/UnitTestProject1/bin/Release/UnitTestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication_dataflow.Controllers.Tests.WebApiControllerTests, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsConnectedTest" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
@@ -40,16 +40,16 @@
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="5b688acc-bf10-4c7e-4b60-69d8596bdd90" executionId="04c457f5-f1c6-4f8e-818f-e2139437dd31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="9e8d12ad-f2a7-f01d-331f-07b61000a523" executionId="71a52849-dfc2-4ade-be49-966f1a097f91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="2941aa74-fda9-7c2a-8792-cc4cb8a2c69b" executionId="218696ba-f919-4fad-92ca-a7db1b030b14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b688acc-bf10-4c7e-4b60-69d8596bdd90" executionId="a161685e-6c21-4ea7-9b08-dd5c09c798fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e8d12ad-f2a7-f01d-331f-07b61000a523" executionId="2707dce8-90c9-4743-bd27-b365f7d4a185" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2941aa74-fda9-7c2a-8792-cc4cb8a2c69b" executionId="5bb602ac-0b8e-4e92-b61a-5af6a95796d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="04c457f5-f1c6-4f8e-818f-e2139437dd31" testId="5b688acc-bf10-4c7e-4b60-69d8596bdd90" testName="TestMethod1" computerName="DESKTOP-2IV19KM" duration="00:00:00.0153390" startTime="2016-04-20T15:51:22.4341694+02:00" endTime="2016-04-20T15:51:22.8492758+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04c457f5-f1c6-4f8e-818f-e2139437dd31">
+    <UnitTestResult executionId="a161685e-6c21-4ea7-9b08-dd5c09c798fb" testId="5b688acc-bf10-4c7e-4b60-69d8596bdd90" testName="TestMethod1" computerName="DESKTOP-2IV19KM" duration="00:00:00.0130125" startTime="2016-05-10T03:19:10.6694957+02:00" endTime="2016-05-10T03:19:10.9543058+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a161685e-6c21-4ea7-9b08-dd5c09c798fb">
     </UnitTestResult>
-    <UnitTestResult executionId="71a52849-dfc2-4ade-be49-966f1a097f91" testId="9e8d12ad-f2a7-f01d-331f-07b61000a523" testName="IsConnectedTest" computerName="DESKTOP-2IV19KM" duration="00:00:00.0583311" startTime="2016-04-20T15:51:22.8567949+02:00" endTime="2016-04-20T15:51:22.9189607+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71a52849-dfc2-4ade-be49-966f1a097f91">
+    <UnitTestResult executionId="2707dce8-90c9-4743-bd27-b365f7d4a185" testId="9e8d12ad-f2a7-f01d-331f-07b61000a523" testName="IsConnectedTest" computerName="DESKTOP-2IV19KM" duration="00:00:00.1739158" startTime="2016-05-10T03:19:10.9688638+02:00" endTime="2016-05-10T03:19:11.1454372+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2707dce8-90c9-4743-bd27-b365f7d4a185">
     </UnitTestResult>
-    <UnitTestResult executionId="218696ba-f919-4fad-92ca-a7db1b030b14" testId="2941aa74-fda9-7c2a-8792-cc4cb8a2c69b" testName="IsConnectedTest" computerName="DESKTOP-2IV19KM" duration="00:00:00.0004221" startTime="2016-04-20T15:51:22.9229706+02:00" endTime="2016-04-20T15:51:22.9259794+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="218696ba-f919-4fad-92ca-a7db1b030b14">
+    <UnitTestResult executionId="5bb602ac-0b8e-4e92-b61a-5af6a95796d5" testId="2941aa74-fda9-7c2a-8792-cc4cb8a2c69b" testName="IsConnectedTest" computerName="DESKTOP-2IV19KM" duration="00:00:00.0002272" startTime="2016-05-10T03:19:11.1566331+02:00" endTime="2016-05-10T03:19:11.1586701+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bb602ac-0b8e-4e92-b61a-5af6a95796d5">
     </UnitTestResult>
   </Results>
 </TestRun>
